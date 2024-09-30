@@ -4,191 +4,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>David Motsoeneng - Personal Website</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: Arial, sans-serif;
-            background-color: #000;
-            color: #fff;
-            display: flex;
-        }
-        .sidebar {
-            width: 250px;
-            background-color: #111;
-            height: 100vh;
-            padding: 20px;
-            position: fixed;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-        .sidebar img {
-            width: 100px;
-            border-radius: 50%;
-            margin-bottom: 20px;
-        }
-        .sidebar h1 {
-            font-size: 24px;
-            margin-bottom: 30px;
-        }
-        .sidebar a {
-            text-decoration: none;
-            color: #fff;
-            padding: 10px 0;
-            width: 100%;
-            text-align: center;
-            transition: background 0.3s;
-            cursor: pointer;
-        }
-        .sidebar a:hover {
-            background-color: #575757;
-        }
-        .sidebar .active {
-            color: #d96bff;
-        }
-        .content {
-            margin-left: 250px;
-            padding: 50px;
-            flex: 1;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-        }
-        .content section {
-            display: none;
-        }
-        .content section.active {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-        }
-        .content h1 {
-            font-size: 48px;
-            margin-bottom: 20px;
-        }
-        .content p {
-            font-size: 18px;
-            margin-bottom: 30px;
-            max-width: 600px;
-        }
-        .content .buttons a {
-            text-decoration: none;
-            color: #fff;
-            padding: 15px 30px;
-            margin: 5px;
-            border: 2px solid #fff;
-            transition: background 0.3s, color 0.3s;
-        }
-        .content .buttons a:hover {
-            background-color: #fff;
-            color: #000;
-        }
-        .contact-details {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            width: 100%;
-            max-width: 800px;
-            margin-bottom: 30px;
-        }
-        .contact-details div {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-            margin-bottom: 20px;
-        }
-        .contact-details div i {
-            font-size: 36px;
-            color: #d96bff;
-            margin-bottom: 10px;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Sidebar Section -->
-    <div class="sidebar">
-        <img src="me.jpg" alt="David Motsoeneng">
+    <header class="header">
+        <img src="me.jpg" alt="David Motsoeneng" class="profile-pic">
         <h1>David Motsoeneng</h1>
-        <a onclick="showSection('about')" class="active">About me</a>
-        <a onclick="showSection('skills')">Skills</a>
-        <a onclick="showSection('projects')">Projects/Portfolio</a>
-        <a onclick="showSection('contact')">Contact</a>
-    </div>
-    <!-- Content Section -->
-    <div class="content">
-        <!-- About Section -->
+        <button id="menu-toggle" class="menu-toggle">☰</button>
+        <nav class="sidebar" id="sidebar">
+            <a onclick="showSection('about')" class="active">About Me</a>
+            <a onclick="showSection('skills')">Skills</a>
+            <a onclick="showSection('projects')">Projects/Portfolio</a>
+            <a onclick="showSection('contact')">Contact</a>
+        </nav>
+    </header>
+    
+    <main class="content">
         <section id="about" class="active">
-            <h1>HELLO,</h1>
+            <h2>HELLO,</h2>
             <p>I am David Motsoeneng, an aspiring Software Engineer from Johannesburg. I have rich experience in Java and Python.</p>
             <div class="buttons">
-                <a onclick="showSection('projects')" style="background-color: #d96bff;">Portfolio</a>
-                <a onclick="showSection('contact')">Hire Me</a>
+                <a onclick="showSection('projects')" class="btn-primary">Portfolio</a>
+                <a onclick="showSection('contact')" class="btn-secondary">Hire Me</a>
             </div>
         </section>
-        <!-- Skills Section -->
+
         <section id="skills">
-            <h1>SKILLS</h1>
-            <div class="skills-container">
+            <h2>Skills</h2>
+            <div class="skills-grid">
                 <div class="skill">
-                    <h2>Programming fundamentals</h2>
-                    <p>Learned programming fundamentals in both VB.Net and Python, gaining a solid foundation in coding, problem-solving, and software development.</p>
+                    <h3>Programming Fundamentals</h3>
+                    <p>Learned programming fundamentals in VB.Net and Python.</p>
                 </div>
                 <div class="skill">
-                    <h2> Object Oriented Programming</h2>
-                    <p>Acquired strong understanding of OOP concepts and developed multiple projects in Java, demonstrating proficiency in object-oriented programming and software development.</p>
+                    <h3>Object-Oriented Programming</h3>
+                    <p>Strong understanding of OOP concepts, proficient in Java.</p>
                 </div>
                 <div class="skill">
-                    <h2>Computer Networking</h2>
-                    <p>Proficient in designing, implementing, and managing secure and efficient network infrastructures, including LAN, WAN, and cloud-based networks, with experience in network programming using Java.</p>
+                    <h3>Computer Networking</h3>
+                    <p>Experienced in designing secure and efficient networks.</p>
                 </div>
                 <div class="skill">
-                    <h2>Web Development</h2>
-                    <p>Completely new to front-end development, but possess extensive experience in .NET development, with a background in back-end programming and software engineering.</p>
+                    <h3>Web Development</h3>
+                    <p>Extensive experience in back-end development.</p>
                 </div>
             </div>
         </section>
 
-        <!-- Projects/Portfolio Section -->
         <section id="projects">
-            <h1>Projects/Portfolio</h1>
+            <h2>Projects/Portfolio</h2>
+            <!-- Add project details here -->
         </section>
-        <!-- Contact Section -->
+
         <section id="contact">
-            <h1>CONTACT</h1>
+            <h2>Contact</h2>
             <div class="contact-details">
-                <div>
-                    <h2>Email us</h2>
-                    <p><a href="mailto:davidmotsoeneng2001@gmail.com" target="_blank">davidmotsoeneng2001@gmail.com</a></p>
-                </div>
-                <div>
-                    <h2>Connect with me</h2>
-                    <p><a href="https://www.linkedin.com/in/david-motsoeneng-809516175/" target="_blank">LinkedIn</a></p>
-                </div>
-                <div>
-                    <h2>Resume</h2>
-                    <p><a href="https://drive.google.com/file/d/16bo0bQSLLCxCt7gf-TldSzffknIjU7xx/view?usp=sharing" target="_blank"> Click here to view my full Curriculum Vitae </a></p>
-                </div>
+                <p>Email: <a href="mailto:davidmotsoeneng2001@gmail.com">davidmotsoeneng2001@gmail.com</a></p>
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/david-motsoeneng-809516175/" target="_blank">LinkedIn Profile</a></p>
+                <p>Resume: <a href="https://drive.google.com/file/d/16bo0bQSLLCxCt7gf-TldSzffknIjU7xx/view?usp=sharing" target="_blank">View CV</a></p>
             </div>
         </section>
-    </div>
-    <script>
-        function showSection(sectionId) {
-            const sections = document.querySelectorAll('.content section');
-            sections.forEach(section => {
-                section.classList.remove('active');
-            });
-            document.getElementById(sectionId).classList.add('active');
+    </main>
 
-            const links = document.querySelectorAll('.sidebar a');
-            links.forEach(link => {
-                link.classList.remove('active');
-            });
-            document.querySelector(`.sidebar a[onclick="showSection('${sectionId}')"]`).classList.add('active');
-        }
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
