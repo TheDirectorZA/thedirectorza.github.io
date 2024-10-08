@@ -7,18 +7,23 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header class="header">
+    <div class="hamburger" onclick="toggleSidebar()">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+
+    <aside class="sidebar">
         <img src="me.jpg" alt="David Motsoeneng" class="profile-pic">
         <h1>David Motsoeneng</h1>
-        <button id="menu-toggle" class="menu-toggle">☰</button>
-        <nav class="sidebar" id="sidebar">
+        <nav class="nav-links">
             <a onclick="showSection('about')" class="active">About Me</a>
             <a onclick="showSection('skills')">Skills</a>
             <a onclick="showSection('projects')">Projects/Portfolio</a>
             <a onclick="showSection('contact')">Contact</a>
         </nav>
-    </header>
-    
+    </aside>
+
     <main class="content">
         <section id="about" class="active">
             <h2>HELLO,</h2>
@@ -53,7 +58,7 @@
 
         <section id="projects">
             <h2>Projects/Portfolio</h2>
-            <!-- Add project details here -->
+            <p class="in-progress">In progress...</p>
         </section>
 
         <section id="contact">
