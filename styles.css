@@ -86,6 +86,7 @@ section.active {
 
 
 .buttons a {
+    cursor: pointer;
     padding: 10px 20px;
     margin: 10px;
     border: 2px solid #fff;
@@ -99,6 +100,7 @@ section.active {
 }
 
 .buttons a:hover {
+    cursor: pointer;
     background-color: #fff;
     color: #000;
 }
