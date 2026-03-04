@@ -265,28 +265,16 @@ const achievementSection = {
       subtitle:
         "Awarded by WeThinkCode_ in recognition of being a supportive and impactful peer contributor within a peer-to-peer learning environment.",
       image: require("./assets/images/wtc_logo.png"),
-      imageAlt: "WeThinkCode Logo"
-      // footerLink: [
-      //   {
-      //     name: "Certification",
-      //     url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-      //   },
-      //   {
-      //     name: "Award Letter",
-      //     url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-      //   },
-      //   {
-      //     name: "Google Code-in Blog",
-      //     url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-      //   }
-      // ]
+      imageAlt: "WeThinkCode Logo",
+      footerLink: []
     },
     {
       title: "Year 1 Semester 2 Top 50",
       subtitle:
         "Thrilled to have earned a Top 50 Medallion in Object-Oriented Programming (OOP) with Java at WeThinkCode! This milestone reflects the hard work and dedication I've put into mastering OOP principles, and I'm excited to continue building on this foundation as I advance in my coding journey.",
       image: require("./assets/images/wtc_logo.png"),
-      imageAlt: "WeThinkCode Logo"
+      imageAlt: "WeThinkCode Logo",
+      footerLink: []
     },
 
     {
@@ -294,7 +282,8 @@ const achievementSection = {
       subtitle:
         "I am excited to share that I have been recognized as the #2 student out of the top 50 for Semester 1 in the 2023 Cohort of WeThinkCode_. This honor reflects my dedication and hard work in mastering Programming Fundamentals in Python. I am grateful for this recognition and look forward to continuing my journey in the world of coding and technology.",
       image: require("./assets/images/wtc_logo.png"),
-      imageAlt: "WeThinkCode Logo"
+      imageAlt: "WeThinkCode Logo",
+      footerLink: []
     }
   ],
   display: true // Set false to hide this section, defaults to true
