@@ -138,7 +138,7 @@ const educationInfo = {
       schoolName: "UNISA",
       logo: require("./assets/images/unisa_logo.jpg"),
       subHeader: "BSc in Computing",
-      duration: "January 2025 - To Date",
+      duration: "January 2026 - To Date",
       desc: "Pursuing advanced computing studies with focus on systems design and scalable software engineering."
     },
     {
