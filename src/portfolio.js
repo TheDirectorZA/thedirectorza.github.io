@@ -23,7 +23,7 @@ const greeting = {
   username: "David Motsoeneng",
   title: "Hi all, I'm David",
   subTitle: emoji(
-    "Hi, I'm David — backend engineer, founder of CodeCatalyst Solutions, and systems thinker focused on resilient architecture."
+    "Backend engineer, founder of CodeCatalyst Solutions, and systems thinker focused on resilient architecture."
   ),
   resumeLink:
     "https://drive.google.com/file/d/12gyNOD5HzUQYHZLgd2VRQzbZzy6agUOk/view?usp=sharing", // Set to empty to hide the button
@@ -138,7 +138,7 @@ const educationInfo = {
       schoolName: "UNISA",
       logo: require("./assets/images/unisa_logo.jpg"),
       subHeader: "BSc in Computing",
-      duration: "January 2026 - Present",
+      duration: "January 2025 - To Date",
       desc: "Pursuing advanced computing studies with focus on systems design and scalable software engineering."
     },
     {
