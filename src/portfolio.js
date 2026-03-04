@@ -73,60 +73,60 @@ const skillsSection = {
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
-  {
-    skillName: "TypeScript",
-    fontAwesomeClassname: "fab fa-js"
-  },
-  {
-    skillName: "JavaScript",
-    fontAwesomeClassname: "fab fa-js"
-  },
-  {
-    skillName: "Node.js",
-    fontAwesomeClassname: "fab fa-node"
-  },
-  {
-    skillName: "Java",
-    fontAwesomeClassname: "fab fa-java"
-  },
-  {
-    skillName: "React",
-    fontAwesomeClassname: "fab fa-react"
-  },
-  {
-    skillName: "Docker",
-    fontAwesomeClassname: "fab fa-docker"
-  },
-  {
-    skillName: "Kubernetes",
-    fontAwesomeClassname: "fas fa-dharmachakra"
-  },
-  {
-    skillName: "Dapr",
-    fontAwesomeClassname: "fas fa-project-diagram"
-  },
-  {
-    skillName: "Redis",
-    fontAwesomeClassname: "fas fa-database"
-  },
-  {
-    skillName: "SQL / Databases",
-    fontAwesomeClassname: "fas fa-database"
-  },
-  {
-    skillName: "Azure",
-    fontAwesomeClassname: "fab fa-microsoft"
-  },
-  {
-    skillName: "Git",
-    fontAwesomeClassname: "fab fa-git-alt"
-  },
-  {
-    skillName: "Supabase",
-    fontAwesomeClassname: "fas fa-plug"
-  }
-],
-display: true
+    {
+      skillName: "TypeScript",
+      fontAwesomeClassname: "fab fa-js"
+    },
+    {
+      skillName: "JavaScript",
+      fontAwesomeClassname: "fab fa-js"
+    },
+    {
+      skillName: "Node.js",
+      fontAwesomeClassname: "fab fa-node"
+    },
+    {
+      skillName: "Java",
+      fontAwesomeClassname: "fab fa-java"
+    },
+    {
+      skillName: "React",
+      fontAwesomeClassname: "fab fa-react"
+    },
+    {
+      skillName: "Docker",
+      fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "Kubernetes",
+      fontAwesomeClassname: "fas fa-dharmachakra"
+    },
+    {
+      skillName: "Dapr",
+      fontAwesomeClassname: "fas fa-project-diagram"
+    },
+    {
+      skillName: "Redis",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "SQL / Databases",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "Azure",
+      fontAwesomeClassname: "fab fa-microsoft"
+    },
+    {
+      skillName: "Git",
+      fontAwesomeClassname: "fab fa-git-alt"
+    },
+    {
+      skillName: "Supabase",
+      fontAwesomeClassname: "fas fa-plug"
+    }
+  ],
+  display: true
 };
 
 // Education Section
@@ -156,9 +156,9 @@ const educationInfo = {
 const techStack = {
   viewSkillBars: true,
   experience: [
-    { Stack: "Backend Engineering", progressPercentage: "85%" },
-    { Stack: "Microservices & Distributed Systems", progressPercentage: "75%" },
-    { Stack: "Frontend (React)", progressPercentage: "65%" }
+    {Stack: "Backend Engineering", progressPercentage: "85%"},
+    {Stack: "Microservices & Distributed Systems", progressPercentage: "75%"},
+    {Stack: "Frontend (React)", progressPercentage: "65%"}
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
@@ -173,8 +173,7 @@ const workExperiences = {
       company: "MTN",
       companylogo: require("./assets/images/MTN-Logo.png"),
       date: "January 2025 – Present",
-      desc:
-        "Contributing to enterprise-grade backend systems and distributed services within Agile engineering teams.",
+      desc: "Contributing to enterprise-grade backend systems and distributed services within Agile engineering teams.",
       descBullets: [
         "Design and maintain containerized microservices using Java, TypeScript, and Python",
         "Led database schema redesign and system re-architecture to improve scalability",
@@ -187,8 +186,7 @@ const workExperiences = {
       company: "WeThinkCode_",
       companylogo: require("./assets/images/quoraLogo.png"),
       date: "October 2024 – December 2024",
-      desc:
-        "Mentored students in Python programming and coordinated bootcamp operations.",
+      desc: "Mentored students in Python programming and coordinated bootcamp operations.",
       descBullets: [
         "Guided foundational software development and problem-solving training",
         "Tracked student performance and ensured curriculum milestone achievement"
@@ -209,7 +207,8 @@ const openSource = {
 
 const bigProjects = {
   title: "Key Projects",
-  subtitle: "Systems and applications focused on scalability, routing intelligence, and architectural experimentation.",
+  subtitle:
+    "Systems and applications focused on scalability, routing intelligence, and architectural experimentation.",
   projects: [
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
