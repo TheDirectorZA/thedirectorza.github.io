@@ -172,7 +172,7 @@ const workExperiences = {
       role: "Software Engineer Intern",
       company: "MTN",
       companylogo: require("./assets/images/mtn-new-logo.png"),
-      date: "January 2025 – Present",
+      date: "January 2025 – To Date",
       desc: "Contributing to enterprise-grade backend systems and distributed services within Agile engineering teams.",
       descBullets: [
         "Design and maintain containerized microservices using Java, TypeScript, and Python",
@@ -295,7 +295,7 @@ const blogSection = {
   title: "Blogs",
   subtitle:
     "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+  displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
       url: "https://medium.com/@davidmotsoeneng2001/a-journey-through-enhancing-robot-world-54f4c8a48a58",
