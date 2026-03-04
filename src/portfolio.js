@@ -171,7 +171,7 @@ const workExperiences = {
     {
       role: "Software Engineer Intern",
       company: "MTN",
-      companylogo: require("./assets/images/mtn-new-logo.svg"),
+      companylogo: require("./assets/images/mtn-new-logo.png"),
       date: "January 2025 – Present",
       desc: "Contributing to enterprise-grade backend systems and distributed services within Agile engineering teams.",
       descBullets: [
