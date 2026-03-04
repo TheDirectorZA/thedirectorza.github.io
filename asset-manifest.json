@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.8e70ea13.css",
-    "main.js": "/static/js/main.b09fcc32.js",
+    "main.js": "/static/js/main.c9866ab3.js",
     "static/css/487.bb36206c.chunk.css": "/static/css/487.bb36206c.chunk.css",
-    "static/js/487.bf6d52ce.chunk.js": "/static/js/487.bf6d52ce.chunk.js",
+    "static/js/487.9c26da50.chunk.js": "/static/js/487.9c26da50.chunk.js",
     "static/css/990.c6a7ee28.chunk.css": "/static/css/990.c6a7ee28.chunk.css",
-    "static/js/990.3b355d42.chunk.js": "/static/js/990.3b355d42.chunk.js",
+    "static/js/990.395e23b2.chunk.js": "/static/js/990.395e23b2.chunk.js",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/MTN-Logo.png": "/static/media/MTN-Logo.9d030803b2aaef0d317e.png",
@@ -24,14 +24,14 @@
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.8e70ea13.css.map": "/static/css/main.8e70ea13.css.map",
-    "main.b09fcc32.js.map": "/static/js/main.b09fcc32.js.map",
+    "main.c9866ab3.js.map": "/static/js/main.c9866ab3.js.map",
     "487.bb36206c.chunk.css.map": "/static/css/487.bb36206c.chunk.css.map",
-    "487.bf6d52ce.chunk.js.map": "/static/js/487.bf6d52ce.chunk.js.map",
+    "487.9c26da50.chunk.js.map": "/static/js/487.9c26da50.chunk.js.map",
     "990.c6a7ee28.chunk.css.map": "/static/css/990.c6a7ee28.chunk.css.map",
-    "990.3b355d42.chunk.js.map": "/static/js/990.3b355d42.chunk.js.map"
+    "990.395e23b2.chunk.js.map": "/static/js/990.395e23b2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8e70ea13.css",
-    "static/js/main.b09fcc32.js"
+    "static/js/main.c9866ab3.js"
   ]
 }
