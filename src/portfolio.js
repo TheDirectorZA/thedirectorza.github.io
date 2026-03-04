@@ -171,7 +171,7 @@ const workExperiences = {
     {
       role: "Software Engineer Intern",
       company: "MTN",
-      companylogo: require("./assets/images/MTN-Logo.png"),
+      companylogo: require("./assets/images/mtn-new-logo.svg"),
       date: "January 2025 – Present",
       desc: "Contributing to enterprise-grade backend systems and distributed services within Agile engineering teams.",
       descBullets: [
@@ -184,7 +184,7 @@ const workExperiences = {
     {
       role: "Bootcamp Coordinator",
       company: "WeThinkCode_",
-      companylogo: require("./assets/images/quoraLogo.png"),
+      companylogo: require("./assets/images/wtc_logo.png"),
       date: "October 2024 – December 2024",
       desc: "Mentored students in Python programming and coordinated bootcamp operations.",
       descBullets: [
@@ -200,7 +200,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -211,39 +211,39 @@ const bigProjects = {
     "Systems and applications focused on scalability, routing intelligence, and architectural experimentation.",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
+      image: require("./assets/images/SiyaphiLogo.png"),
       rojectName: "Siyaphi Taxi Navigator",
       projectDesc:
         "Routing and commuter navigation system focused on improving local transport efficiency using backend-driven logic.",
       footerLink: [
         {
           name: "Visit the Project on GitHub",
-          url: "http://saayahealth.com/"
+          url: "https://github.com/TheDirectorZA/siyaphi_taxi_navigator.git"
         }
-        //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
+      image: require("./assets/images/CCLogo.png"),
       rojectName: "CodeCatalyst Solutions",
       projectDesc:
         "CodeCatalyst Solutions is a software development company focused on building scalable, backend-driven systems and cloud-native solutions that transform innovative ideas into reliable, high-performance digital products.",
       footerLink: [
         {
           name: "Visit the Project on GitHub",
-          url: "http://saayahealth.com/"
+          url: "https://github.com/TheDirectorZA/code-catalyst-solutions.git"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/OhlukileLogo.png"),
+      projectName: "Ohlukile Banking",
+      projectDesc:
+        "Ohlukile Banking is a Java-based banking application utilizing a Maven Client-Server architecture with Javalin for a robust API server. The app enables secure account management, seamless money transfers, and real-time transaction tracking. With a focus on data validation and user experience, Ohlukile Banking ensures safe and intuitive financial services for users, with plans for future mobile integration and advanced analytics.",
       footerLink: [
         {
           name: "Visit the Project on GitHub",
-          url: "http://nextu.se/"
+          url: "https://github.com/TheDirectorZA/banking_app"
         }
       ]
     }
@@ -261,52 +261,40 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Fellowship Award",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
-      footerLink: [
-        {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
-      ]
+        "Awarded by WeThinkCode_ in recognition of being a supportive and impactful peer contributor within a peer-to-peer learning environment.",
+      image: require("./assets/images/wtc_logo.png"),
+      imageAlt: "WeThinkCode Logo"
+      // footerLink: [
+      //   {
+      //     name: "Certification",
+      //     url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+      //   },
+      //   {
+      //     name: "Award Letter",
+      //     url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+      //   },
+      //   {
+      //     name: "Google Code-in Blog",
+      //     url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+      //   }
+      // ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Year 1 Semester 2 Top 50",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
-      footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
+        "Thrilled to have earned a Top 50 Medallion in Object-Oriented Programming (OOP) with Java at WeThinkCode! This milestone reflects the hard work and dedication I've put into mastering OOP principles, and I'm excited to continue building on this foundation as I advance in my coding journey.",
+      image: require("./assets/images/wtc_logo.png"),
+      imageAlt: "WeThinkCode Logo"
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
-      ]
+      title: "Year 1 Semester 1 Top 50",
+      subtitle:
+        "I am excited to share that I have been recognized as the #2 student out of the top 50 for Semester 1 in the 2023 Cohort of WeThinkCode_. This honor reflects my dedication and hard work in mastering Programming Fundamentals in Python. I am grateful for this recognition and look forward to continuing my journey in the world of coding and technology.",
+      image: require("./assets/images/wtc_logo.png"),
+      imageAlt: "WeThinkCode Logo"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -321,16 +309,10 @@ const blogSection = {
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "https://medium.com/@davidmotsoeneng2001/a-journey-through-enhancing-robot-world-54f4c8a48a58",
+      title: "A Journey Through Enhancing Robot World",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
-    },
-    {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        'David Motsoeneng shares insights into the iterative development process used to enhance the "Robot World" project. Through four iterations, the team progressively refined the software, focusing on key areas such as feature implementation, code base improvement, and architectural refinement. In Iteration 1, the foundation was laid by defining user stories and setting up build processes. Iteration 2 expanded functionalities, introduced Docker, and refined the codebase. Iteration 3 added persistent storage with database integration, while Iteration 4 focused on architectural refinement and implementing a Web API with ORM. The project showcases the power of systematic improvements in achieving a robust, adaptable software system.'
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -352,7 +334,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -365,7 +347,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -381,18 +363,18 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+27 84 973 2676",
+  email_address: "davidbmotsoeneng.dev@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
