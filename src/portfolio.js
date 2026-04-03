@@ -25,8 +25,7 @@ const greeting = {
   subTitle: emoji(
     "Software engineer, and systems thinker focused on resilient architecture."
   ),
-  resumeLink:
-    "https://drive.google.com/file/d/1KFKUM5iAPs5bCOGbVa6t5tIo3d_DarPj/view?usp=sharing", // Set to empty to hide the button
+  resumeLink: "./assets/resume/resume_butinyana_david_motsoeneng.pdf", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
