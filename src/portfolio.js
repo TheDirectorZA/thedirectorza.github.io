@@ -23,10 +23,10 @@ const greeting = {
   username: "David Motsoeneng",
   title: "Hi all, I'm David",
   subTitle: emoji(
-    "Backend engineer, founder of CodeCatalyst Solutions, and systems thinker focused on resilient architecture."
+    "Software engineer, and systems thinker focused on resilient architecture."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/12gyNOD5HzUQYHZLgd2VRQzbZzy6agUOk/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1KFKUM5iAPs5bCOGbVa6t5tIo3d_DarPj/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -49,7 +49,7 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "What I Do",
   subTitle:
-    "Backend Engineer & Systems Thinker focused on scalable architecture, clean code, and reliable distributed systems",
+    "Software Engineer & Systems Thinker focused on scalable architecture, clean code, and reliable distributed systems",
 
   skills: [
     emoji(
@@ -66,6 +66,15 @@ const skillsSection = {
     ),
     emoji(
       "⚡ Integrate third-party services such as Supabase (GitHub Auth), payment systems, and external APIs with production-level reliability"
+    ),
+    emoji(
+      "⚡ Work with Azure Functions, serverless microservices, and cloud-native application patterns"
+    ),
+    emoji(
+      "⚡ Build responsive React applications and full-stack features with modern frontend and backend technologies"
+    ),
+    emoji(
+      "⚡ Apply observability practices such as logging, metrics, and tracing to troubleshoot and improve systems"
     )
   ],
 
@@ -96,6 +105,10 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "Docker",
       fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "Azure Functions",
+      fontAwesomeClassname: "fas fa-cloud"
     },
     {
       skillName: "Kubernetes",
@@ -139,7 +152,7 @@ const educationInfo = {
       logo: require("./assets/images/unisa_logo.jpg"),
       subHeader: "BSc in Computing",
       duration: "January 2026 - To Date",
-      desc: "Pursuing advanced computing studies with focus on systems design and scalable software engineering."
+      desc: "Currently pursuing a Bachelor of Science in Computing with focus areas in software development, system architecture, and cloud-native applications."
     },
     {
       schoolName: "We Think Code_",
@@ -157,7 +170,7 @@ const techStack = {
   viewSkillBars: true,
   experience: [
     {Stack: "Backend Engineering", progressPercentage: "85%"},
-    {Stack: "Microservices & Distributed Systems", progressPercentage: "75%"},
+    {Stack: "Microservices & Distributed Systems", progressPercentage: "80%"},
     {Stack: "Frontend (React)", progressPercentage: "65%"}
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -169,16 +182,17 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer Intern",
+      role: "Software Engineer",
       company: "MTN",
       companylogo: require("./assets/images/mtn-new-logo.png"),
-      date: "January 2025 – To Date",
-      desc: "Contributing to enterprise-grade backend systems and distributed services within Agile engineering teams.",
+      date: "January 2025 – March 2026",
+      desc: "Designing, developing, and maintaining scalable backend systems and microservices in an enterprise environment.",
       descBullets: [
-        "Design and maintain containerized microservices using Java, TypeScript, and Python",
-        "Led database schema redesign and system re-architecture to improve scalability",
-        "Implemented observability using logging, metrics, and tracing tools",
-        "Collaborate on high-reliability enterprise platforms"
+        "Built and maintained containerized microservices and RESTful APIs using Java, TypeScript, and Python",
+        "Led a database schema redesign and system re-architecture to improve scalability and maintainability",
+        "Designed serverless microservices for key projects and supported service integration",
+        "Implemented observability through logging, metrics, and tracing for production troubleshooting",
+        "Collaborated in Agile teams to deliver clean, testable code for reliable enterprise platforms"
       ]
     },
     {
@@ -186,10 +200,12 @@ const workExperiences = {
       company: "WeThinkCode_",
       companylogo: require("./assets/images/wtc_logo.png"),
       date: "October 2024 – December 2024",
-      desc: "Mentored students in Python programming and coordinated bootcamp operations.",
+      desc: "Supported student development and program delivery in a high-performance learning environment.",
       descBullets: [
-        "Guided foundational software development and problem-solving training",
-        "Tracked student performance and ensured curriculum milestone achievement"
+        "Mentored students in Python programming, algorithms, and problem solving",
+        "Guided learners through debugging, coding best practices, and logical thinking",
+        "Tracked and managed student progress and performance",
+        "Coordinated daily operations to ensure smooth delivery of the bootcamp curriculum"
       ]
     }
   ]
@@ -199,7 +215,7 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
+  showGithubProfile: true, // Set true or false to show Contact profile using Github, defaults to true
   display: false // Set false to hide this section, defaults to true
 };
 
@@ -263,7 +279,7 @@ const achievementSection = {
     {
       title: "Fellowship Award",
       subtitle:
-        "Awarded by WeThinkCode_ in recognition of being a supportive and impactful peer contributor within a peer-to-peer learning environment.",
+        "Recognized by WeThinkCode_ for peer support, leadership, and contribution in a collaborative learning environment.",
       image: require("./assets/images/wtc_logo.png"),
       imageAlt: "WeThinkCode Logo",
       footerLink: []
@@ -271,7 +287,7 @@ const achievementSection = {
     {
       title: "Year 1 Semester 2 Top 50",
       subtitle:
-        "Thrilled to have earned a Top 50 Medallion in Object-Oriented Programming (OOP) with Java at WeThinkCode! This milestone reflects the hard work and dedication I've put into mastering OOP principles, and I'm excited to continue building on this foundation as I advance in my coding journey.",
+        "Recognized among the top 50 students for Object-Oriented Programming (OOP) with Java at WeThinkCode_.",
       image: require("./assets/images/wtc_logo.png"),
       imageAlt: "WeThinkCode Logo",
       footerLink: []
@@ -280,7 +296,7 @@ const achievementSection = {
     {
       title: "Year 1 Semester 1 Top 50",
       subtitle:
-        "I am excited to share that I have been recognized as the #2 student out of the top 50 for Semester 1 in the 2023 Cohort of WeThinkCode_. This honor reflects my dedication and hard work in mastering Programming Fundamentals in Python. I am grateful for this recognition and look forward to continuing my journey in the world of coding and technology.",
+        "Recognized among the top students for Programming Fundamentals in Python at WeThinkCode_.",
       image: require("./assets/images/wtc_logo.png"),
       imageAlt: "WeThinkCode Logo",
       footerLink: []
