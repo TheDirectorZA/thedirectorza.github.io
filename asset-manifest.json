@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.eb7e723e.css",
-    "main.js": "/static/js/main.9b25c6d0.js",
+    "main.js": "/static/js/main.633c077e.js",
     "static/css/487.bb36206c.chunk.css": "/static/css/487.bb36206c.chunk.css",
     "static/js/487.9c26da50.chunk.js": "/static/js/487.9c26da50.chunk.js",
     "static/css/990.c6a7ee28.chunk.css": "/static/css/990.c6a7ee28.chunk.css",
     "static/js/990.395e23b2.chunk.js": "/static/js/990.395e23b2.chunk.js",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/mtn-new-logo.png": "/static/media/mtn-new-logo.f4c2ae66e8076fef64b2.png",
+    "static/media/resume.pdf": "/static/media/resume.ccfe9f5ba895f15504c7.pdf",
     "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/SiyaphiLogo.png": "/static/media/SiyaphiLogo.cfe20610388472259d12.png",
     "static/media/OhlukileLogo.png": "/static/media/OhlukileLogo.f8b81e8d16b95e2e0356.png",
@@ -17,11 +18,10 @@
     "static/media/developerActivity.svg": "/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
     "static/media/unisa_logo.jpg": "/static/media/unisa_logo.98fc5679981194730537.jpg",
     "static/media/skill.svg": "/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
-    "static/media/resume.pdf": "/static/media/resume.f0f733dd3cd732b39262.pdf",
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.eb7e723e.css.map": "/static/css/main.eb7e723e.css.map",
-    "main.9b25c6d0.js.map": "/static/js/main.9b25c6d0.js.map",
+    "main.633c077e.js.map": "/static/js/main.633c077e.js.map",
     "487.bb36206c.chunk.css.map": "/static/css/487.bb36206c.chunk.css.map",
     "487.9c26da50.chunk.js.map": "/static/js/487.9c26da50.chunk.js.map",
     "990.c6a7ee28.chunk.css.map": "/static/css/990.c6a7ee28.chunk.css.map",
@@ -29,6 +29,6 @@
   },
   "entrypoints": [
     "static/css/main.eb7e723e.css",
-    "static/js/main.9b25c6d0.js"
+    "static/js/main.633c077e.js"
   ]
 }
